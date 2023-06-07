@@ -1,0 +1,75 @@
+body {
+  background-color: cyan;
+  overflow: auto;
+}
+
+#date {
+  color: aqua;
+  background-color: coral;
+  padding: 5px;
+}
+
+h1 {
+  color: white;
+  background-color: brown;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  border-radius: 10px;
+}
+.container-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: burlywood;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  overflow: auto;
+  padding: 5%;
+  border-radius: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.baseCurrency {
+  display: flex;
+  flex-direction: column;
+}
+
+.convertedCurrency {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  margin-top: 5%;
+}
+
+#fetch-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+#reset-button:hover {
+  background-color: red;
+  color: white;
+}
+
+button {
+  transition: box-shadow 0.1s;
+}
+
+button:active {
+  outline: none;
+  box-shadow: 0 0 5px 5px rgba(144, 253, 10, 0.979);
+}
